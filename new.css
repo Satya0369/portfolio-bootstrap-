@@ -1,0 +1,360 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    
+    
+}
+.bg{
+    overflow-x: hidden;
+}
+.s_1{
+  /* background-image: linear-gradient(to right top, #051937,#004d7a,#008793,#00bf72,#ABEB12);
+    height: 100vh;
+    width:100%;
+    padding-top: 6px;
+
+    
+    background-attachment: fixed;
+  */
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  background-image: linear-gradient( 
+                rgba(0,0,0,0.3),rgba(0,0,0,0.3)
+            ),  url('./b1.png');
+            height: 100vh;
+            width: 100vw;
+            background-size: cover;
+            background-repeat:no-repeat;
+            background-attachment: fixed;          
+    
+    
+
+}
+body{
+    background-image: linear-gradient( 
+        rgba(0,0,0,0.3),rgba(0,0,0,0.3)
+    ),  url('b1.png');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;     
+    color:whitesmoke;
+}
+
+.ssec2{
+
+background-image: linear-gradient( 
+    rgba(0,0,0,0.3),rgba(0,0,0,0.3)
+),  url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg');
+background-size: 100% 100%;
+background-repeat:no-repeat;
+}
+.sec2{
+    display: flex;
+    justify-content: center;
+}
+
+#head{
+    
+    width:100vw;
+    
+    
+   
+    
+   
+   
+
+}
+li>a{
+   font-size: x-large !important;
+   color: rgb(10, 10, 10) !important;
+}
+li>a:hover{
+    /* border:2px solid rgb(1, 1, 14);
+    border-radius: 25px; */
+    text-align: center;
+    text-shadow: 2px 2px 3px blue;
+    /* box-shadow: 2px 2px 0px rgb(4, 0, 255); */
+
+}
+/* nav{
+   
+    display:flex;
+   
+    float:right;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    margin-right: 30px;
+   
+   
+    
+    
+} */
+a{
+    color:black;
+    text-decoration: none;
+}
+.aa{
+    margin-bottom: 20px;
+}
+
+/* nav div{
+  padding-left: 25px;
+  padding-right: 15px;
+  padding-top: 13px;
+ font-size: larger;
+ text-decoration: none;
+
+} */
+/* nav div:hover{
+  
+    border:2px solid rgb(1, 1, 14);
+    border-radius: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 3px blue;
+  /*  box-shadow: 2px 2px 0px rgb(4, 0, 255);
+  */
+   
+#sec1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+#img1{
+    border:2px solid green;
+    border-radius: 50%;
+    height:300px;
+    width:300px;
+    
+   
+    box-shadow: -1px 1px 25px 14px rgb(26, 45, 156);
+    
+}
+#sec1 div div a{
+    margin:18px;
+    
+    border:1px solid black;
+    padding:10px;
+    border-radius: 50%;
+    color:white;
+    /*box-shadow: -1px 1px 2px 4px rgb(83, 83, 190); */
+}
+#sec1 div div a:hover{
+    color:white;
+    transition:all 2s ease;
+    box-shadow: -1px 1px 2px 15px rgb(83, 83, 190);
+    border-color: white;
+}
+.aad{
+    margin:18px;
+    
+    border:1px solid black;
+    padding:10px;
+    border-radius: 50%;
+    color:white;
+
+}
+.aad:hover{
+    color:white;
+    transition:all 2s ease;
+    box-shadow: -1px 1px 2px 15px rgb(83, 83, 190);
+    border-color: white;
+}
+.h-center{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+    
+}
+.cont{
+    max-width: 750px;
+    margin: 50px 0px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:black;
+    /* margin-right: 20px; */
+}
+._2cont{
+    max-width: 750px;
+    margin: 50px 0px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color:black;
+}
+.container1{
+    width: 90vw;
+    
+
+}
+.skill {
+    margin-bottom: 20px;
+}
+.skill-name {
+    font-weight: bold;
+}
+.skill-bar {
+    width: 100%;
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.skill-progress {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 10px;
+}
+.text{
+    padding: 30px;
+}
+.marr{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.img2{
+    border: 0px solid black;
+    height:100%;
+    width:40%;  
+   filter: drop-shadow( -20px 20px 30px #3b5bbb);
+}
+.imgg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+.ccontact{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding:15px 25px;
+    width:90%;
+    height:500px;
+    
+    border-radius: 20px;
+    
+}
+.frmm form input{
+    margin:8px;
+}
+form input, form textarea{
+    border:0px;
+    margin:10px 0;
+    padding:20px;
+    outline:none;
+    background: #f5f5f5;
+    font-size: 16px;
+
+}
+form button{
+    padding:15px;
+
+    background: #ff5361;
+    color:#fff;
+    font-size:15px;
+    border:0;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.container5{
+    display: flex;
+    justify-content: center;
+
+}
+
+.frm{
+    width:40vw; height: 450px;
+}
+@media screen and (min-width:320px) and (max-width:767px){
+    .ass{
+        margin-top: 150px;
+        
+    }
+.s_1{
+    height: 120vh;
+}
+    #img1{
+        margin-top: 40px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+    
+    .sec2{
+        margin-top: 150px;
+        margin-bottom: 50px;
+    }
+    ._2cont{
+        max-width: 750px;
+        margin-top: 50px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 50px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        color:black;
+        margin-bottom: 0px;
+    }
+    .marr{
+        margin-bottom: 20px;
+    }
+    ._2cont{
+        max-width: 750px;
+        /* margin-bottom: 50px; */
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 50px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        color:black;
+    }
+    .imgg{
+        margin-bottom: 10px;
+    }
+    .frm{
+        margin-top: 50px;
+        width:80vw; 
+        height: 450px;
+    }
+     .foot{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     .ck{
+        width: 100vw !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+     }
+}
+
+.flex{
+    display: flex !important;
+}
